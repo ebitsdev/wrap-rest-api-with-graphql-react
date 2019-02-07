@@ -1,9 +1,9 @@
-# WRAP REST API with GraphQL and Show the data in ReactJS
+# WRAP REST API with GraphQL
 
 In this project, we are going to wrap an existing API from Drupal CMS with GraphQL.
 This allows to optimize the process of fetching data from the backend
 
-### Technology stack
+## Technology stack
 
 - GraphQL `graphql-yoga`
 - Axios `axios`
