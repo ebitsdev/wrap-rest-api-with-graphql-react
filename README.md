@@ -10,6 +10,8 @@ This allows to optimize the process of fetching data from the backend
 - ReactJS `react`
 - Drupal CMS with REST API module `drupal`
 - React Apollo `react-apollo`
+- Bootstrap `bootstrap`
+- ReactStrap `reactstrap`
 
 ### How to run this project
 
