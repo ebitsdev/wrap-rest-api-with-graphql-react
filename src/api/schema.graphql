@@ -6,14 +6,10 @@ type Page {
     id: ID!
     title: String
     body: [bodyContent!]!
-    table: [TableRows]
 }
 type bodyContent {
     value: String
     processed: String
     summary: String
     format: String
-}
-type TableRows {
-    value: [String]
 }
