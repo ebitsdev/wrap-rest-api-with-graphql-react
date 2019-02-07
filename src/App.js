@@ -26,7 +26,7 @@ const App = ({ page }) => (
       console.log(data);
       return (
         <div className="App">
-          <Navbar color="light" light expand="md">
+          <Navbar className="nav-header" color="blue" expand="md">
             <NavbarBrand href="/">Home</NavbarBrand>
             <Nav className="ml-auto" navbar>
               <NavItem>
@@ -39,12 +39,12 @@ const App = ({ page }) => (
               </NavItem>
             </Nav>
           </Navbar>
-          <h1>React JS with GraphQL API</h1>
+          <h1 className="heading-front">React JS with GraphQL API</h1>
           <Container>
             <Row>
               {data.page.map((item, i) => (
                 <Col key={item.id} sm="6">
-                  <h2>{item.title}</h2>
+                  <h2 className="article-heading">{item.title}</h2>
                   {item.body[0].summary}
                 </Col>
               ))}
