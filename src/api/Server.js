@@ -3,7 +3,7 @@
 */
 const { GraphQLServer } = require('graphql-yoga');
 const axios = require('axios');
-const baseURL = `http://apifirstcms.dd:8083/fullpageview?_format=json`;
+const baseURL = `http://localhost:8083/fullpageview?_format=json`;
 
 const convertResponse = (data) => (
     data.map(item =>({ 
